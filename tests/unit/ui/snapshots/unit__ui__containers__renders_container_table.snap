@@ -1,0 +1,12 @@
+---
+source: tests/unit/ui/containers.rs
+expression: "render_to_string(&fixture(), 110, 8)"
+---
+" [1] Hub │ [2] Images │ [3] Containers                                                                        "
+"┌ Containers (2, all) ───────────────────────────────────────────────────────────────────────────────────────┐"
+"│  NAME                    IMAGE                  STATUS                  PORTS                  ID          │"
+"│● web                     nginx:latest           Up 2 hours              0.0.0.0:8080->80/tcp   0123456789ab│"
+"│○ db                      alpine:3.20            Exited (0) 3 days ago                          fedcba987654│"
+"│                                                                                                            │"
+"└────────────────────────────────────────────────────────────────────────────────────────────────────────────┘"
+" Enter details  x/X shell/pane  : run  s start/stop  R restart  d remove  a all/running  ? help  q quit       "

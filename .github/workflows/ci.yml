@@ -13,8 +13,5 @@ jobs:
         with:
           components: rustfmt, clippy
       - uses: Swatinem/rust-cache@v2
-      - run: cargo fmt --check
-      - run: cargo clippy --all-targets -- -D warnings
-      - run: cargo test
-      # The runner has a Docker daemon, so exercise the real API too.
-      - run: cargo test --test docker_integration -- --ignored
+      # Same targets as local development; see `make help`.
+      - run: make ci

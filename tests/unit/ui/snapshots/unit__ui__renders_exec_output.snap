@@ -1,0 +1,14 @@
+---
+source: tests/unit/ui/mod.rs
+expression: "render_to_string(&app, 60, 10)"
+---
+" [1] Hub │ [2] Images │ [3] Containers                      "
+"┌ Containers (1, all) ─────────────────────────────────────┐"
+"│  N┌ web $ w — exit 0 ────────────────────────────────┐   │"
+"│● w│hello                                             │   │"
+"│   │world                                             │   │"
+"│   │                                                  │   │"
+"│   │                                                  │   │"
+"│   └ Esc close · : run another ───────────────────────┘   │"
+"└──────────────────────────────────────────────────────────┘"
+" Enter details  x/X shell/pane  : run  s start/stop  R resta"

@@ -1,0 +1,10 @@
+---
+source: tests/unit/ui/mod.rs
+expression: "render_to_string(&app, 60, 6)"
+---
+" [1] Hub │ [2] Images │ [3] Containers                      "
+"┌ Containers (1, all) ─────────────────────────────────────┐"
+"│  NAME       IMAGE      STATUS     PORTS      ID          │"
+"│● web        alpine:3.2 Up 2 hours            c1          │"
+"└──────────────────────────────────────────────────────────┘"
+" web $ ls /etc                                              "

@@ -1,0 +1,11 @@
+---
+source: tests/unit/ui/images.rs
+expression: "render_to_string(&app, 80, 7)"
+---
+" [1] Hub │ [2] Images │ [3] Containers                                          "
+"┌ Images (2) ──────────────────────────────────────────────────────────────────┐"
+"│REPOSITORY:TAG                 ID           SIZE      CREATED          USED BY│"
+"│nginx:latest                   abcdef012345 187 MB    1 day ago        1      │"
+"│alpine:3.20                    001122334455 7.8 MB    10 days ago             │"
+"└──────────────────────────────────────────────────────────────────────────────┘"
+" d remove  r refresh  ? help  q quit                                            "

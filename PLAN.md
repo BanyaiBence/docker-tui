@@ -32,10 +32,16 @@ followed by the implementation that makes them pass.
 
 ### Running
 
+Common tasks are wrapped in the `Makefile` (`make help` lists them all):
+
 ```
-cargo run -- [--host unix:///var/run/docker.sock] [--config path/to/config.toml]
-cargo test                                         # unit + snapshot tests
-cargo test --test docker_integration -- --ignored  # against the real daemon
+make run ARGS="--host unix:///var/run/docker.sock"   # debug build + run
+make release                                         # target/release/docker-tui
+make test                                            # unit + snapshot tests (tests/unit)
+make test-integration                                # against the real Docker daemon
+make clippy / make fmt / make doc                    # lint, format, API docs
+make check                                           # pre-commit: fmt-check, clippy, tests
+make ci                                              # everything CI runs
 ```
 
 Integration tests only create and remove their own `dtui-test-*` containers
@@ -201,6 +207,22 @@ friendly error screen on socket permission issues.
 | **6. Polish** | config file, `--host`, CI (fmt/clippy/test) | v0.1 |
 
 ## 6. Testing strategy
+
+Tests live outside `src/`, so production code carries no test modules:
+
+```
+tests/
+  unit/          # one test crate mirroring src/: tests/unit/app/hub.rs tests src/app/hub.rs
+    main.rs
+    support/     # MockDocker, MockHub, model builders, key(), render_to_string()
+    ui/snapshots/
+  docker_integration.rs   # opt-in, against the real daemon
+  fixtures/      # captured Hub responses and `ls` output
+```
+
+They go through the crate's public API; private helpers are covered through
+the public functions that use them.
+
 - **Unit**: parsers (`ls` output, tar listing, Hub JSON fixtures, pull progress
   folding), `App::update` state transitions (msg in → state + commands out).
 - **UI snapshots**: render screens into `TestBackend`, `insta` snapshots.
