@@ -1,0 +1,18 @@
+---
+source: src/ui/detail.rs
+expression: "render_to_string(&app, 60, 14)"
+---
+" [1] Hub │ [2] Images │ [3] Containers                      "
+"┌ ● web alpine:3.20 · Up 2 hours ──────────────────────────┐"
+"│ Info │ Logs │ Stats │ Files                              │"
+"│CPU 40.0%                                                 │"
+"│   ▂█   ▂█   ▂█   ▂█                                      │"
+"│  ▄██  ▄██  ▄██  ▄██                                      │"
+"│ ▆███ ▆███ ▆███ ▆███                                      │"
+"│MEM 69 MB / 1 GB (6.9%)                                   │"
+"│▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇█                                      │"
+"│████████████████████                                      │"
+"│████████████████████                                      │"
+"│NET rx 1.5 KB  tx 900 B                                   │"
+"└──────────────────────────────────────────────────────────┘"
+" Esc back  h/l tabs  j/k scroll  G follow  x shell  : run  ?"

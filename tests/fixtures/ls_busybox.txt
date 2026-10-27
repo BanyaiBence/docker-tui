@@ -1,0 +1,21 @@
+total 0
+drwxr-xr-x    1 root     root             0 Oct 27 22:28 .
+drwxr-xr-x    1 root     root             0 Oct 27 22:28 ..
+-rwxr-xr-x    1 root     root             0 Oct 27 22:28 .dockerenv
+drwxr-xr-x    1 root     root           858 Apr 15  2026 bin
+drwxr-xr-x    5 root     root           340 Oct 27 22:28 dev
+drwxr-xr-x    1 root     root            56 Oct 27 22:28 etc
+drwxr-xr-x    1 root     root             0 Apr 15  2026 home
+drwxr-xr-x    1 root     root           272 Apr 15  2026 lib
+drwxr-xr-x    1 root     root            28 Apr 15  2026 media
+drwxr-xr-x    1 root     root             0 Apr 15  2026 mnt
+drwxr-xr-x    1 root     root             0 Apr 15  2026 opt
+dr-xr-xr-x  471 root     root             0 Oct 27 22:28 proc
+drwx------    1 root     root             0 Apr 15  2026 root
+drwxr-xr-x    1 root     root             0 Apr 15  2026 run
+drwxr-xr-x    1 root     root           790 Apr 15  2026 sbin
+drwxr-xr-x    1 root     root             0 Apr 15  2026 srv
+dr-xr-xr-x   13 root     root             0 Oct 27 22:28 sys
+drwxrwxrwt    1 root     root             0 Apr 15  2026 tmp
+drwxr-xr-x    1 root     root            40 Apr 15  2026 usr
+drwxr-xr-x    1 root     root            86 Apr 15  2026 var

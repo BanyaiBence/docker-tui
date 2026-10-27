@@ -1,0 +1,24 @@
+total 16
+drwxr-xr-x.   1 root root   0 Oct 27 22:29 .
+drwxr-xr-x.   1 root root   0 Oct 27 22:29 ..
+lrwxrwxrwx.   1 root root   7 May  8 16:10 bin -> usr/bin
+drwxr-xr-x.   1 root root   0 May  8 16:10 boot
+drwxr-xr-x.   5 root root 340 Oct 27 22:29 dev
+drwxr-xr-x.   1 root root   0 Jun 24 01:32 docker-entrypoint-initdb.d
+-rwxr-xr-x.   1 root root   0 Oct 27 22:29 .dockerenv
+drwxr-xr-x.   1 root root  56 Oct 27 22:29 etc
+drwxr-xr-x.   1 root root   0 May  8 16:10 home
+lrwxrwxrwx.   1 root root   7 May  8 16:10 lib -> usr/lib
+lrwxrwxrwx.   1 root root   9 May  8 16:10 lib64 -> usr/lib64
+drwxr-xr-x.   1 root root   0 Jun 23 00:00 media
+drwxr-xr-x.   1 root root   0 Jun 23 00:00 mnt
+drwxr-xr-x.   1 root root   0 Jun 23 00:00 opt
+dr-xr-xr-x. 473 root root   0 Oct 27 22:29 proc
+drwx------.   1 root root  20 Jun 24 01:32 root
+drwxr-xr-x.   1 root root  20 Jun 24 01:33 run
+lrwxrwxrwx.   1 root root   8 May  8 16:10 sbin -> usr/sbin
+drwxr-xr-x.   1 root root   0 Jun 23 00:00 srv
+dr-xr-xr-x.  13 root root   0 Oct 27 22:28 sys
+drwxrwxrwt.   1 root root   0 Jun 23 00:00 tmp
+drwxr-xr-x.   1 root root  10 Jun 23 00:00 usr
+drwxr-xr-x.   1 root root   6 Jun 23 00:00 var

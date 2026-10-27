@@ -1,0 +1,142 @@
+{
+  "count": 1381,
+  "next": "https://hub.docker.com/v2/repositories/library/nginx/tags?ordering=last_updated&page=2&page_size=3",
+  "previous": null,
+  "results": [
+    {
+      "creator": 1156886,
+      "id": 1235098889,
+      "images": [
+        {
+          "architecture": "amd64",
+          "features": "",
+          "variant": null,
+          "digest": "sha256:8f06fd647c6687eae0fd7bee8a43df66e61edb9f093bb0a9079d69cb355b879b",
+          "os": "linux",
+          "os_features": "",
+          "os_version": null,
+          "size": 5740963,
+          "status": "active",
+          "last_pulled": "2026-10-27T22:04:49.1721529Z",
+          "last_pushed": "2026-10-22T01:52:27.081795554Z"
+        },
+        {
+          "architecture": "ppc64le",
+          "features": "",
+          "variant": null,
+          "digest": "sha256:b272df04887795d2beba2c117794c8de02fa5ec1532ef7a761da73e8da86fa29",
+          "os": "linux",
+          "os_features": "",
+          "os_version": null,
+          "size": 5798288,
+          "status": "active",
+          "last_pulled": "2026-10-27T22:14:16.4062535Z",
+          "last_pushed": "2026-10-22T13:50:46.009997406Z"
+        }
+      ],
+      "last_updated": "2026-10-24T19:52:22.389337Z",
+      "last_updater": 1156886,
+      "last_updater_username": "doijanky",
+      "name": "stable-alpine3.24-slim",
+      "repository": 21171,
+      "full_size": 5740963,
+      "v2": true,
+      "tag_status": "active",
+      "tag_last_pulled": "2026-10-27T22:20:02.878224818Z",
+      "tag_last_pushed": "2026-10-24T19:52:22.389337Z",
+      "media_type": "application/vnd.oci.image.index.v1+json",
+      "content_type": "image",
+      "digest": "sha256:dede8895648b461178c3bc604f7eed4423efe5220b2c4d839f5eb3d34ac3f8f7"
+    },
+    {
+      "creator": 1156886,
+      "id": 412147445,
+      "images": [
+        {
+          "architecture": "amd64",
+          "features": "",
+          "variant": null,
+          "digest": "sha256:8f06fd647c6687eae0fd7bee8a43df66e61edb9f093bb0a9079d69cb355b879b",
+          "os": "linux",
+          "os_features": "",
+          "os_version": null,
+          "size": 5740963,
+          "status": "active",
+          "last_pulled": "2026-10-27T22:04:49.1721529Z",
+          "last_pushed": "2026-10-22T01:52:27.081795554Z"
+        },
+        {
+          "architecture": "ppc64le",
+          "features": "",
+          "variant": null,
+          "digest": "sha256:b272df04887795d2beba2c117794c8de02fa5ec1532ef7a761da73e8da86fa29",
+          "os": "linux",
+          "os_features": "",
+          "os_version": null,
+          "size": 5798288,
+          "status": "active",
+          "last_pulled": "2026-10-27T22:14:16.4062535Z",
+          "last_pushed": "2026-10-22T13:50:46.009997406Z"
+        }
+      ],
+      "last_updated": "2026-10-24T19:52:16.836264Z",
+      "last_updater": 1156886,
+      "last_updater_username": "doijanky",
+      "name": "stable-alpine-slim",
+      "repository": 21171,
+      "full_size": 5740963,
+      "v2": true,
+      "tag_status": "active",
+      "tag_last_pulled": "2026-10-27T22:20:02.878224818Z",
+      "tag_last_pushed": "2026-10-24T19:52:16.836264Z",
+      "media_type": "application/vnd.oci.image.index.v1+json",
+      "content_type": "image",
+      "digest": "sha256:dede8895648b461178c3bc604f7eed4423efe5220b2c4d839f5eb3d34ac3f8f7"
+    },
+    {
+      "creator": 1156886,
+      "id": 1235098318,
+      "images": [
+        {
+          "architecture": "amd64",
+          "features": "",
+          "variant": null,
+          "digest": "sha256:f9238a4aacf18df0f059cf0389490fc2e876352f75d019f475a48e8765576f24",
+          "os": "linux",
+          "os_features": "",
+          "os_version": null,
+          "size": 5797562,
+          "status": "active",
+          "last_pulled": "2026-10-27T22:13:19.788420619Z",
+          "last_pushed": "2026-10-22T01:50:57.632687777Z"
+        },
+        {
+          "architecture": "ppc64le",
+          "features": "",
+          "variant": null,
+          "digest": "sha256:5d8d8f22599ebcd153b5e1425ac9a77595d16236be2254301432cb771c815c82",
+          "os": "linux",
+          "os_features": "",
+          "os_version": null,
+          "size": 5855951,
+          "status": "active",
+          "last_pulled": "2026-10-27T22:16:29.698486254Z",
+          "last_pushed": "2026-10-22T13:50:17.480522298Z"
+        }
+      ],
+      "last_updated": "2026-10-24T19:52:03.224396Z",
+      "last_updater": 1156886,
+      "last_updater_username": "doijanky",
+      "name": "mainline-alpine3.24-slim",
+      "repository": 21171,
+      "full_size": 5797562,
+      "v2": true,
+      "tag_status": "active",
+      "tag_last_pulled": "2026-10-27T22:19:10.698838696Z",
+      "tag_last_pushed": "2026-10-24T19:52:03.224396Z",
+      "media_type": "application/vnd.oci.image.index.v1+json",
+      "content_type": "image",
+      "digest": "sha256:f45171d36c76a8b2f5ef97108a3a8a2294248a6578a0a180edc2d78f7d2edc26"
+    }
+  ]
+}

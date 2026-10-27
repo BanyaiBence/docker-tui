@@ -1,0 +1,11 @@
+---
+source: src/ui/files.rs
+expression: "render_to_string(&app, 80, 7)"
+---
+" [1] Hub │ [2] Images │ [3] Containers                                          "
+"┌ ○ web alpine:3.20 · Exited (0) 3 days ago ───────────────────────────────────┐"
+"│ Info │ Logs │ Stats │ Files                                                  │"
+"│/  1 entries  (via archive)  (partial: archive too large)                     │"
+"│drwxr-xr-x            Oct 27 22:28     etc/                                   │"
+"└──────────────────────────────────────────────────────────────────────────────┘"
+" Enter open  Bksp up  D changes  x shell  : run  Esc back  ? help  q quit       "
